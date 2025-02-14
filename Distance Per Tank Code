@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   double tank = 20, town = 23.5, hway = 28.9, towndistance, hwaydistance;
+
+ towndistance = tank * town;
+
+ hwaydistance = tank * hway;
+
+ cout << "When driving in a town the total distance is " << towndistance << endl;
+ cout << "When driving on the highway the total distance is " << hwaydistance;
+    return 0;
+}
